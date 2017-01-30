@@ -10,8 +10,6 @@ int m2_old = 0;
 int m1_old = 0;
 int h1_old = 0;
 int h2_old = 0;
-int brightness = 255;
-bool dispOn = true;
 DS3231 clock;
 RTCDateTime dt;
 LedControl lc=LedControl(12,11,10, NBR_MTX);
